@@ -12173,12 +12173,35 @@ fieldset:disabled .btn {
   }
 }
 
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.movie:hover {
+  border: 2px solid rgb(189, 189, 189);
+}
+
+.movie:hover .title {
+  border-radius: 0.5rem;
+  transform: scale(1.05);
+  background-color: rgb(157, 255, 142);
+}
+
 .title {
-  color: red;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0.3rem 0;
+  background-color: rgb(226, 226, 226);
+  padding: 0.2rem 0.5rem;
 }
 
 img {
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 img:hover {

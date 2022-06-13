@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <div class="logo">Library</div>
+            <div class="logo">Header</div>
         </header>
         <main>
             @yield('content')
