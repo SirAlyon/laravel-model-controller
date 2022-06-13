@@ -1,1 +1,11 @@
-//
+@import '~bootstrap/scss/bootstrap';
+.title{
+    color: red;
+}
+
+img{
+    width: 100%;
+    &:hover{
+        opacity: 0.8;
+    }
+}
