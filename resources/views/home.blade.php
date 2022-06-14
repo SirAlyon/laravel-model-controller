@@ -12,6 +12,10 @@
                 <img src="https://picsum.photos/400" alt="">
                 <div class="title">{{$movie->title}}</div>
                 <div>{{$movie->original_title}}</div>
+                <div>Nationality: {{$movie->nationality}}</div>
+                <div>Vote: {{$movie->vote}}</div>
+
+
 
             </div>
             
